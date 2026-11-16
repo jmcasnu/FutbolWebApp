@@ -1,0 +1,50 @@
+
+# Ejecutables y archivos generados
+Programs/*.exe
+Programs/*.dll
+Programs/*.dbg
+Programs/*.pdb
+Programs/*.map
+Programs/*.prn
+Programs/*.log
+
+# Configuracion local y credenciales
+Data/*.ini
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.log
+*~
+
+# Archivos del entorno de desarrollo
+.vs/
+.vscode/
+
+
+# Claves y configuracion de conexiones
+AppSrc/LoginEncryptionKey.inc
+**/DFConnId.ini
+**/connections.ini
+**/SQLConnections.ini
+
+# Archivos generados por DataFlex
+AppSrc/*.prn
+AppSrc/*.dep
+Data/*.cch
+Data/*.x64.cch
+IdeSrc/*.dsk
+IdeSrc/*.mtd
+IdeSrc/*.loc
+AppSrc/config/classlist.xml
+
+# Datos locales de usuarios y sesiones
+Data/WebAppUser.*
+Data/webappuser.*
+Data/WebAppSession.*
+Data/webappsession.*
